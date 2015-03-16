@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Shippable/sample-nodejs-mongo-heroku.git"
+    "url": "git@github.com:stephanielingwood/sample-nodejs-mongo-heroku.git"
   },
-  "homepage": "https://github.com/Shippable/sample-nodejs-mongo-heroku",
+  "homepage": "https://github.com/stephanielingwood/sample-nodejs-mongo-heroku",
   "dependencies": {
     "express": "~4.2.0",
     "mongoose": "^3.8.12",
