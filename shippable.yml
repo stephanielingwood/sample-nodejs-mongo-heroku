@@ -15,6 +15,7 @@ env:
 
 before_install:
   - which heroku || wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
+  - cd doesNotExist
 
 before_script: 
   - mkdir -p shippable/testresults
