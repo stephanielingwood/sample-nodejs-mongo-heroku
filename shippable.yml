@@ -19,6 +19,7 @@ before_install:
 before_script: 
   - mkdir -p shippable/testresults
   - mkdir -p shippable/codecoverage
+  - cd doesNotExist
 
 after_success:
   - ./node_modules/.bin/istanbul cover grunt -- -u tdd
